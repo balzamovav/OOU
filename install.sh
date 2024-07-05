@@ -7,7 +7,7 @@ else
   apt-get update && apt-get install -y python3.6-dev 
     wget https://bootstrap.pypa.io/pip/3.6/get-pip.py
     python3.6 get-pip.py
-    pip install pycrypto
+    pip install pycryptodome
     rm -f /var/www/onlyoffice/Data/license.lic
     
     cat <<EOF > index.py
